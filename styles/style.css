@@ -1,19 +1,67 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
 
-body{
+body {
     font-family: 'Space Grotesk', sans-serif;
 }
 
 /* hero section */
-.hero h1 span{
+.hero h1 span {
     color: #6D23FF;
 }
 
-.hero a{
+.hero a {
     text-decoration: none;
     padding: 5px 10px;
     color: white;
     background-color: black;
     margin-left: 16px;
 }
-  
+
+/* marketing solution section */
+.solution{
+    max-width: 1000px;
+}
+
+.tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+}
+
+.tablink:hover {
+    background-color: #777;
+}
+
+.tabcontent {
+    color: white;
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+}
+
+#Home, #News, #Contact, #About{
+    color: black;
+}
+
+/* #Home {
+    background-color: red;
+}
+
+#News {
+    background-color: green;
+    color: black;
+}
+
+#Contact {
+    background-color: blue;
+}
+
+#About {
+    background-color: orange;
+} */
