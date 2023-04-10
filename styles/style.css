@@ -77,6 +77,23 @@ body {
 
 
 /* automation section */
-.card h3{
-    background-color: #6E24FF;
+/* .number h3{
+    color: #6E24FF;
+    padding: 5px;
+    background: #777;
+} */
+
+
+/* testimonial section */
+
+
+/* platform-section */
+
+
+/* resources section */
+
+.resources-section {
+    /* background-color: #6D23FF; */
+    background-image: url("images/");
+    padding: 50px;
 }
