@@ -23,7 +23,7 @@ body {
 }
 
 .tablink {
-    background-color: #555;
+    /* background-color: #555; */
     color: white;
     float: left;
     border: none;
@@ -34,8 +34,8 @@ body {
     width: 25%;
 }
 
-.tablink:hover {
-    background-color: #777;
+.tablink:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .tabcontent {
@@ -49,28 +49,34 @@ body {
     color: black;
 }
 
-/* #Home {
-    background-color: red;
-}
-
-#News {
-    background-color: green;
-    color: black;
-}
-
-#Contact {
-    background-color: blue;
-}
-
-#About {
-    background-color: orange;
-} */
-
 
 /* compliant section */
+.compliant-section{
+    margin-bottom: 40px;
+}
+
+.text a{
+    text-decoration: none;
+    border: 1px solid #6D23FF;
+    padding: 7px 10px;
+}
 
 
 /* marketing tool section */
+.marketing-tool-section{
+    margin-bottom: 80px;
+}
+
+.marketing-tool-content {
+    align-self: center;
+    /* justify-content: center; */
+}
+
+.marketing-tool-content a{
+    text-decoration: none;
+    border: 1px solid #6D23FF;
+    padding: 7px 10px;
+}
 
 
 /* conversation section */
@@ -97,3 +103,8 @@ body {
     background-image: url("images/");
     padding: 50px;
 }
+
+/* @media (max-width: 767px) {
+    .compliant{
+    }
+} */
