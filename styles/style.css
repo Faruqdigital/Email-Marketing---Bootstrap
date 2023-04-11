@@ -14,83 +14,40 @@ p {
 }
 
 /* header */
-header {
-    /* background: #000; */
-    /* color: white; */
-    font-size: 1rem;
-  }
 
-  .contain {
-    /* max-width: 1140px; */
-    height: 100px;
-    margin: auto;
-    padding: 0 1rem;
+.navbar {
+    background-color: rgb(248, 245, 240);
+}
+
+.navbar-nav{
+    margin-right: 220px;
+}
+
+.button {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
+    gap: 30px;
+    margin-right: 50px;
+}
 
-  /* .container i {
-    font-size: 2.5rem;
-  } */
+.button .btn-1 a{
+    text-decoration: none;
+    color: black;
+}
 
-  nav {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    right: 100%;
-    padding: 2rem;
-    /* background-color: #818AA3; */
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-  }
+.button .btn-2 a{
+    text-decoration: none;
+    color: black;
+}
 
-  .open-nav {
-    right: 0;
-    transition: right 0.5s ease;
-  }
-
-  .back-nav {
-    right: 100%;
-    transition: right 0.5s ease;
-  }
-
-  .close-nav i {
-    float: right;
-    cursor: pointer;
-  }
-
-  .menu{
-    cursor: pointer;
-  }
-
-  @media (min-width: 576px) {
-    nav {
-      position: static;
-      display: flex;
-      gap: 2rem;
-      /* background-color: black; */
-      flex-direction: row;
-      justify-content: flex-end;
-    }
-
-    .menu{
-      display: none;
-    }
-
-    .close-nav {
-      display: none;
-    }
-
-    .close-nav i {
-      cursor: pointer;
-    }
-
-  }
+.button .btn-2:hover{
+    background-color: aqua;
+}
 
 /* hero section */
+.hero-section {
+    margin-top: 100px;
+}
+
 .hero h1 span {
     color: #6D23FF;
 }
