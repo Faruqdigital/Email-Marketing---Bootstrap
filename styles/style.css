@@ -16,7 +16,7 @@ p {
 /* header */
 
 .navbar {
-    background-color: rgb(248, 245, 240);
+    background-color: white;
 }
 
 .navbar-nav{
@@ -45,7 +45,7 @@ p {
 
 /* hero section */
 .hero-section {
-    margin-top: 100px;
+    margin-top: 60px;
 }
 
 .hero h1 span {
