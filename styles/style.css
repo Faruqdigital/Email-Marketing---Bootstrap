@@ -2,15 +2,93 @@
 
 body {
     font-family: 'Space Grotesk', sans-serif;
+    margin: 0;
 }
 
-h2{
+h2 {
     font-size: 40px;
 }
 
-p{
+p {
     font-size: 16px;
 }
+
+/* header */
+header {
+    /* background: #000; */
+    /* color: white; */
+    font-size: 1rem;
+  }
+
+  .contain {
+    /* max-width: 1140px; */
+    height: 100px;
+    margin: auto;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  /* .container i {
+    font-size: 2.5rem;
+  } */
+
+  nav {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 100%;
+    padding: 2rem;
+    /* background-color: #818AA3; */
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .open-nav {
+    right: 0;
+    transition: right 0.5s ease;
+  }
+
+  .back-nav {
+    right: 100%;
+    transition: right 0.5s ease;
+  }
+
+  .close-nav i {
+    float: right;
+    cursor: pointer;
+  }
+
+  .menu{
+    cursor: pointer;
+  }
+
+  @media (min-width: 576px) {
+    nav {
+      position: static;
+      display: flex;
+      gap: 2rem;
+      /* background-color: black; */
+      flex-direction: row;
+      justify-content: flex-end;
+    }
+
+    .menu{
+      display: none;
+    }
+
+    .close-nav {
+      display: none;
+    }
+
+    .close-nav i {
+      cursor: pointer;
+    }
+
+  }
 
 /* hero section */
 .hero h1 span {
@@ -132,7 +210,7 @@ h5 {
     margin-bottom: 80px;
 }
 
-.carousel-item{
+.carousel-item {
     height: 350px;
 }
 
@@ -165,11 +243,14 @@ h5 {
 
 
 @media (max-width: 767px) {
-    .compliant, .marketing-tool-content, .conversion-content{
+
+    .compliant,
+    .marketing-tool-content,
+    .conversion-content {
         margin-bottom: 50px;
     }
 
-    .cards .card{
+    .cards .card {
         padding: 5px;
     }
 }
