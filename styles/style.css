@@ -4,6 +4,14 @@ body {
     font-family: 'Space Grotesk', sans-serif;
 }
 
+h2{
+    font-size: 40px;
+}
+
+p{
+    font-size: 16px;
+}
+
 /* hero section */
 .hero h1 span {
     color: #6D23FF;
@@ -18,7 +26,7 @@ body {
 }
 
 /* marketing solution section */
-.solution{
+.solution {
     max-width: 1000px;
 }
 
@@ -34,7 +42,7 @@ body {
     width: 25%;
 }
 
-.tablink:hover{
+.tablink:hover {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
@@ -45,17 +53,19 @@ body {
     height: 100%;
 }
 
-#Home, #News, #Contact, #About{
+#Home,
+#News,
+#Contact,
+#About {
     color: black;
 }
 
-
 /* compliant section */
-.compliant-section{
+.compliant-section {
     margin-bottom: 40px;
 }
 
-.text a{
+.text a {
     text-decoration: none;
     border: 1px solid #6D23FF;
     padding: 7px 10px;
@@ -63,16 +73,15 @@ body {
 
 
 /* marketing tool section */
-.marketing-tool-section{
-    margin-bottom: 80px;
+.marketing-tool-section {
+    margin-bottom: 120px;
 }
 
 .marketing-tool-content {
     align-self: center;
-    /* justify-content: center; */
 }
 
-.marketing-tool-content a{
+.marketing-tool-content a {
     text-decoration: none;
     border: 1px solid #6D23FF;
     padding: 7px 10px;
@@ -80,31 +89,87 @@ body {
 
 
 /* conversation section */
+.conversation-section {
+    margin-bottom: 180px;
+}
+
+.conversion-content {
+    align-self: center;
+}
+
+.conversion-content a {
+    text-decoration: none;
+    border: 1px solid #6D23FF;
+    padding: 7px 10px;
+}
 
 
 /* automation section */
-/* .number h3{
-    color: #6E24FF;
-    padding: 5px;
-    background: #777;
-} */
+.automation-section {
+    margin-bottom: 120px;
+}
+
+.cards .card {
+    padding: 60px;
+    background-color: #F9F9F9;
+    border: none;
+}
+
+.card h3,
+h5 {
+    margin-bottom: 30px;
+}
+
+.btn a {
+    text-decoration: none;
+    border: 1px solid #6D23FF;
+    padding: 7px 10px;
+}
 
 
 /* testimonial section */
+.testimonial-section {
+    margin-bottom: 80px;
+}
+
+.carousel-item{
+    height: 350px;
+}
 
 
 /* platform-section */
+.platform-section {
+    margin-bottom: 100px;
+}
 
+.platform a {
+    text-decoration: none;
+    border: 1px solid #6D23FF;
+    padding: 7px 10px;
+}
 
 /* resources section */
 
 .resources-section {
-    /* background-color: #6D23FF; */
-    background-image: url("images/");
+    background-color: #6D23FF;
     padding: 50px;
+    color: white;
+    margin-bottom: 100px;
 }
 
-/* @media (max-width: 767px) {
-    .compliant{
+.parcent a {
+    text-decoration: none;
+    background-color: white;
+    padding: 5px 70px;
+}
+
+
+@media (max-width: 767px) {
+    .compliant, .marketing-tool-content, .conversion-content{
+        margin-bottom: 50px;
     }
-} */
+
+    .cards .card{
+        padding: 5px;
+    }
+}
